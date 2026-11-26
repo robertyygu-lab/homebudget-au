@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="HomeBudget AU — a plain, working household budget for Australian families. See where the money goes, plan the month, track bills and savings goals.">
+<title>HomeBudget AU — Household Budget Planner</title>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="app.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">$</span>
+      <span class="brand-name">HomeBudget <span class="brand-au">AU</span></span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#/" data-route="dashboard">Dashboard</a>
+      <a href="#/planner" data-route="planner">Planner</a>
+      <a href="#/bills" data-route="bills">Bills</a>
+      <a href="#/savings" data-route="savings">Savings</a>
+      <a href="#/guide" data-route="guide">Guide</a>
+    </nav>
+  </div>
+</header>
+<main id="app" class="wrap" aria-live="polite"></main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>HomeBudget AU</strong> — a household budget that lives in your browser. Your edits are saved on this device only, in local storage. Nothing is sent anywhere.</p>
+    <p class="fineprint">Figures shown are the example Carter household for December 2026. Edit any amount and the totals follow. All amounts in Australian dollars.</p>
+  </div>
+</footer>
+</body>
+</html>
